@@ -57,6 +57,16 @@ namespace Pr14.Windows
                 MessageBox.Show("Не правильно указано отчество пользователя");
                 return;
             }
+            if (string.IsNullOrEmpty(Issued.Text) || !Classes.Common.CheckRegex.Match("^[a-яA-Я]*$", Issued.Text))
+            {
+                MessageBox.Show("Не правильно указан орган выдачи");
+                return;
+            }
+            if (string.IsNullOrEmpty(DateOfIssued.Text) || Classes.Common.CheckRegex.Match("^[a-яA-Я]*$", Issued.Text) && !(DateTime.TryParse(DateOfIssued.Text, out DateTime Ch_DateOfIssued)) && Ch_DateOfIssued >= DateTime.Now)
+            {
+                MessageBox.Show("Не правильно указана дата выдачи");
+                return;
+            }
 
             if (EditPassports == null)
             {

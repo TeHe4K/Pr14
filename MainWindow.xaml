@@ -24,6 +24,6 @@
         </ListView>
         <Button Click="Add" Content="Добавить" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="75" Height="25"/>
         <Button Click="Update" Content="Изменить" HorizontalAlignment="Right" Margin="0,0,90,10" VerticalAlignment="Bottom" Width="75" Height="25"/>
-        <Button Click="Delete" Content="Добавить" HorizontalAlignment="Right" Margin="0,0,170,10" VerticalAlignment="Bottom" Width="75" Height="25"/>
+        <Button Click="Delete" Content="Удалить" HorizontalAlignment="Right" Margin="0,0,170,10" VerticalAlignment="Bottom" Width="75" Height="25"/>
     </Grid>
 </Window>
