@@ -10,34 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Pr14
+namespace Pr14.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Add.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Add : Window
     {
-        public MainWindow()
+        public Add()
         {
             InitializeComponent();
-        }
-
-        private void Add(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Update(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Delete(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
