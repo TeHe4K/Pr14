@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+
+namespace Pr14.Classes
+{
+    public class Common
+    {
+        public static bool Match(string Pattern, string Input)
+        {
+            Match m = Regex.Match(Input, Pattern);
+            return m.Success;
+        }
+    }
+}
