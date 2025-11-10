@@ -5,9 +5,9 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Pr14.Classes
+namespace Pr14.Classes.Common
 {
-    public class Common
+    public class CheckRegex
     {
         public static bool Match(string Pattern, string Input)
         {
