@@ -73,7 +73,7 @@ namespace Pr14.Windows
             EditPassports.SeriesAndNumber = SeriesAndNumber.Text;
             EditPassports.DateOfBirth = DateOfBirth.Text;
             EditPassports.PlaceOfBirth = PlaceOfBirth.Text;
-            MainWindow.init.loadPassport();
+            MainWindow.init.LoadPassport();
             this.Close();
         }
     }
